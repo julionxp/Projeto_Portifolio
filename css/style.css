@@ -94,7 +94,7 @@ SEÇÃO DE EXPERIÊNCIA
 */
 
 
-.exeperiencia {
+.experiencia {
     max-width: 1200px;
     margin: 0 auto;
     padding: 40px 20px;
@@ -103,11 +103,11 @@ SEÇÃO DE EXPERIÊNCIA
     gap: 100px;
 }
 
-.exeperiencia .subtitulo {
+.experiencia .subtitulo {
     color: #e0e0e0;
 }
 
-.exeperiencia-texto {
+.experiencia-texto {
     font-size: 24px;
     margin-bottom: 60px;
     color: #525252;
@@ -255,6 +255,18 @@ SEÇÃO DO FOOTER
 .footer-copy {
     font-size: 20px;
     color: #8f8f8f;
+}
+
+
+/*
+=====================
+ROLAGEM SUAVE
+=====================
+*/
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 
